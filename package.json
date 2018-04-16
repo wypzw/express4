@@ -1,36 +1,21 @@
 {
   "name": "project",
-  "version": "0.0.1",
-  "description": "a koa2 project",
-  "main": "index.js",
+  "version": "0.0.0",
+  "private": true,
   "scripts": {
-    "init_sql": "node ./init/index.js",
-    "dev": "npm run dev_server & npm run dev_static",
-    "start_server": "node ./server/app.js",
-    "start": "npm run start_server"
+    "start": "node ./bin/www"
   },
-  "author": "zhangw",
-  "license": "MIT",
   "dependencies": {
-    "busboy": "^0.2.14",
-    "co": "^4.6.0",
-    "debug": "^2.6.0",
-    "ejs": "^2.5.5",
-    "koa": "^2.0.0",
-    "koa-bodyparser": "^3.2.0",
-    "koa-logger": "^3.0.0",
-    "koa-mysql-session": "0.0.2",
-    "koa-router": "^7.0.1",
-    "koa-send": "^3.2.0",
-    "koa-session-minimal": "^3.0.3",
-    "koa-static": "^3.0.0",
-    "koa-views": "^5.2.0",
-    "mysql": "^2.12.0",
-    "puppeteer": "^1.2.0",
-    "validator": "^6.2.0"
-  },
-  "engines": {
-    "node": ">= 7.0.0",
-    "npm": ">= 3.0.0"
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "ejs": "^2.5.7",
+    "express": "~4.15.5",
+    "jade": "~1.11.0",
+    "morgan": "~1.9.0",
+    "mysql": "^2.15.0",
+    "path": "^0.12.7",
+    "serve-favicon": "~2.4.5",
+    "url": "^0.11.0"
   }
 }

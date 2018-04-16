@@ -1,0 +1,159 @@
+#ctt_banner{
+    width: 100%;
+}
+#ctt_banner img{
+    width: 100%;
+}
+html,body{
+    margin:0;padding:0;
+    overflow-x: hidden;
+}
+#nav ul li:nth-child(6) a{
+    color: #b0c625;
+}
+#ctt_header{
+    width: 100%;
+    height: 110px;
+}
+/*位置导航*/
+#ctt_box_state{
+    width: 1200px;
+    height: 50px;
+    margin: 0 auto;
+}
+#ctt_box_state button{
+    float: left;
+    margin-top: 18px;
+    width: 118px;
+    height: 32px;
+    border: none;
+    font-size: 14px;
+    outline: none;
+    cursor: pointer;
+    background-color: #b0c625;
+    color: white;
+}
+#ctt_box_state span{
+    font-size: 14px;
+    color: #b2b2b2;
+    line-height: 50px;
+    float: right;
+}
+/*健康资讯内容标题*/
+#ctt_content{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+#ctt_content div:nth-child(1){
+    font-size: 22px;
+    color: #666666;
+    margin-top: 50px;
+}
+#ctt_content div:nth-child(2){
+    font-size: 12px;
+    color: #b2b2b2;
+    margin-top: 15px;
+}
+#ctt_content div:nth-child(3){
+    margin-top: 15px;
+}
+/*百度地图*/
+.iw_poi_title {
+    color:#CC5522;
+    font-size:14px;
+    font-weight:bold;
+    overflow:hidden;
+    padding-right:13px;
+    white-space:nowrap
+}
+.iw_poi_content {
+    font:12px arial,sans-serif;
+    overflow:visible;
+    padding-top:4px;
+    white-space:-moz-pre-wrap;
+    word-wrap:break-word
+}
+.baidu_box{
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}
+.baidu_content{
+    width:1100px;
+    height:300px;
+    border:#ccc solid 1px;
+    margin: 0 auto;
+}
+.app_download{
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 440px;
+    z-index: 99;
+}
+.baiduditu_href{
+    width: 1100px;
+    height: 20px;
+    margin: 0 auto;
+}
+.baiduditu_href a{
+    margin-left: 995px;
+    color: #b2b2b2;
+    font-size: 12px;
+    text-decoration: none;
+}
+.cts_address{
+    width: 1100px;
+    height: 620px;
+    margin: 0 auto;
+}
+
+.cts_address_box{
+    width: 550px;
+    height: 620px;
+    float: left;
+}
+.p_title{
+    font-size: 22px;
+    color: #666666;
+    margin-left: 45px;
+    margin-top: 50px;
+}
+.p_words{
+    font-size: 14px;
+    color: #666666;
+    margin-left: 45px;
+    margin-top: 20px;
+}
+.center{
+    text-align: center;
+}
+.QR_code{
+    width: 330px;
+    height: 140px;
+    margin: 0 auto;
+}
+.QR_code div:last-child{
+    margin-left: 50px;
+}
+.QR_code_size{
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin-top: 30px;
+}
+.QR_code_size img{
+    width: 100%;
+}
+.p_word{
+    font-size: 14px;
+    color: #666666;
+}
+.p_titles{
+    font-size: 22px;
+    color: #666666;
+    margin-top: 50px;
+}

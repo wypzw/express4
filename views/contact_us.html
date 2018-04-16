@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>联系我们</title>
+    <link rel="stylesheet" href="../css/contact_us.css"/>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?key=&v=1.1&services=true"></script>
+</head>
+<body>
+<!--动态加载页头（导航）-->
+    <div id="ctt_header">
+        <%include header.html%>
+    </div>
+<!--banner图-->
+    <div id="ctt_banner">
+        <img src="../images/contact_us/cts_banner.png" alt=""/>
+    </div>
+<!--位置描述及页面位置-->
+<div id="ctt_box">
+    <div id="ctt_box_state">
+        <button type="button">联系我们</button>
+        <span id="ctt_location">当前位置：首页 /联系我们  / 文章展示页</span>
+    </div>
+</div>
+<!--健康资讯内容标题-->
+<div id="ctt_content">
+    <div id="ctt_title">联系我们</div>
+    <div>为您提供更高效、更便捷的健康服务！</div>
+    <div><img src="./../images/news_list/title_pic.png" alt=""/></div>
+</div>
+<!--百度地图容器-->
+<div class="baidu_box">
+    <div class="baidu_content" id="dituContent"></div>
+    <div class="app_download" id="app_download">
+        <img src="./../images/contact_us/appdownload.png" />
+    </div>
+    <div class="baiduditu_href">
+        <a href="http://map.baidu.com/" target="_blank">点击打开百度地图</a>
+    </div>
+</div>
+<div class="cts_address">
+    <div class="cts_address_box">
+        <p class="p_title">资讯热线：</p>
+        <p class="p_words">028-65786061</p>
+        <p class="p_title">邮箱地址：</p>
+        <p class="p_words">基卫合作： 刘先生xianhong.liu@changhong.com</p>
+        <p class="p_words">线上商务： 曾女士xiaoting_zeng@changhong.com</p>
+        <p class="p_words">线下商务： 候先生jun1.hou@changhong.com</p>
+        <p class="p_title">联系地址：</p>
+        <p class="p_words">绵阳地址：四川省绵阳市科技城科教创业园区二期3号楼</p>
+        <p class="p_words">成都地址：四川省成都市高新区天府四街长虹科技大厦37楼</p>
+    </div>
+    <div class="cts_address_box">
+        <p class="p_titles center">扫一扫关注微信号</p>
+        <div class="QR_code">
+            <div class="QR_code_size">
+                <img src="./../images/contact_us/subscribe_ma.jpg" />
+                <p class="center p_word">订阅号</p>
+            </div>
+           <div class="QR_code_size">
+               <img src="./../images/contact_us/servers_ma.jpg" />
+               <p class="center p_word">服务号</p>
+           </div>
+        </div>
+    </div>
+
+</div>
+<!--动态加载页尾（footer）-->
+    <div id="ctt_footer">
+        <%include footer.html%>
+    </div>
+</body>
+<script src="../javascripts/jquery.js"></script>
+<script src="../javascripts/baidu.js"></script>
+<script src="../javascripts/contact_us.js"></script>
+</html>

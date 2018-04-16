@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新闻动态</title>
+    <link rel="stylesheet" href="../css/news_list.css"/>
+</head>
+<body>
+   <div id="news_header">
+       <%include header.html%>
+   </div>
+   <!--新闻banner图-->
+   <div id="news_banner">
+       <img src="../images/news_list/news_banner.png"/>
+   </div>
+   <!--位置描述及页面位置-->
+   <div id="news_box">
+       <div id="news_box_state">
+           <button type="button" id="Comp_news">公司新闻</button>
+           <button type="button" id="Ind_news">行业新闻</button>
+           <span id="page_location">当前位置：首页 / 新闻动态 / 公司新闻 / 新闻列表</span>
+       </div>
+   </div>
+   <!--新闻内容-->
+   <div id="news_content">
+       <div id="news_title">
+           <span id="Compeny">公司新闻 / </span><span class="arial_Italic" id="english_com">Company news</span>
+           <div class="compeny_box">
+               <img src="./../images/news_list/title_pic.png"/>
+               <span id="news_title_content">为您提供更高效、更便捷的健康服务！</span>
+               <img src="./../images/news_list/title_pic.png"/>
+           </div>
+       </div>
+       <div id="news_content_box"></div>
+   </div>
+   <div id="news_nextPage">
+       <input type="button" value="上一页"/>
+       <span>1</span>
+       <span>2</span>
+       <span>3</span>
+       <input type="button" value="下一页"/>
+   </div>
+   <div id="news_footer">
+       <%include footer.html%>
+   </div>
+</body>
+<script src="../javascripts/jquery.js"></script>
+<script src="../javascripts/news_list.js"></script>
+</html>

@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>妥妥医 - 您的私人医生和移动医疗专家</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/index.css"/>
+</head>
+<body>
+<div id="header">
+    <%include header.html%>
+</div>
+<div id="banner_box">
+    <div class="banner" style="background-image: url('./images/index/banner2.png')"></div>
+    <div class="banner"  style="background-image: url('./images/index/banner1.png')">
+        <button id="btn_android"></button>
+        <button id="btn_apple"></button>
+    </div>
+    <div class="banner" style="background-image: url('./images/index/banner2.png')"></div>
+    <div id="myanniu">
+        <div class="banner_button" onclick="yiDong(0);daDua(this)" style="margin-left:10px "></div>
+        <div class="banner_button" onclick="yiDong(1);daDua(this)" style="margin-left:40px "></div>
+    </div>
+</div>
+<!--侧边栏-->
+<div id="sidebar"></div>
+<div id="sidebar_content">
+    <div class="sidebar_list" id="sidebar_list1"><div>我们的服务</div></div>
+    <div class="sidebar_list" id="sidebar_list2"><div>健康小站</div></div>
+    <div class="sidebar_list" id="sidebar_list3"><div>公司新闻</div></div>
+    <div class="sidebar_list" id="sidebar_list4"><div>健康资讯</div></div>
+    <div class="sidebar_list" id="sidebar_list5"><div>联系我们</div></div>
+    <div class="sidebar_list" id="sidebar_list6"><div>获取app</div></div>
+</div>
+<!--我们的服务-->
+<div id="our_Service">
+    <div id="Service_box">
+          <div id="Server_title">
+              <img src="./images/index/ourService.png">
+          </div>
+        <p id="title_desc">我们为您提供贴身专业在线服务包，血糖包、血压包、痛风包、健康体检....</p>
+        <div class="xueya" id="pro_one">
+            <div class="item1" id="item1">
+                <img src="./images/index/1.png">
+            </div>
+            <p class="words1">血压包</p>
+            <p class="words2">医生在线为您提供解决方案和建议</p>
+        </div>
+        <div class="xueya left_px">
+            <div class="item1" id="item2">
+                <img src="./images/index/2.png">
+            </div>
+            <p class="words1">血糖包</p>
+            <p class="words2">医生在线为您提供解决方案和建议</p>
+        </div>
+        <div class="xueya left_px">
+            <div class="item1" id="item3">
+                <img src="./images/index/3.png">
+            </div>
+            <p class="words1">痛风包</p>
+            <p class="words2">医生在线为您提供解决方案和建议</p>
+        </div>
+        <div class="xueya left_px">
+            <div class="item1" id="item4">
+                <img src="./images/index/4.png">
+            </div>
+            <p class="words1">居家养老包</p>
+            <p class="words2">医生在线为您提供解决方案和建议</p>
+        </div>
+        <div class="xueya left_px">
+            <div class="item1" id="item5">
+                <img src="./images/index/5.png">
+            </div>
+            <p class="words1">风湿免疫包</p>
+            <p class="words2">医生在线为您提供解决方案和建议</p>
+        </div>
+    </div>
+</div>
+
+<!--健康小站-->
+<div id="health">
+    <div id="health_box">
+        <div id="health_id">
+          <img src="./images/index/health.png">
+        </div>
+        <div id="health_bg_cicle">
+           <img src="./images/index/health_bg_cicle.png">
+        </div>
+        <div id="health_words">
+            <p>长虹智慧健康小站是适应城镇社区远程医疗需求而开发的低成本、数字化、智能化健康设备，具备健康数据采集和信息
+                化功能，可提供健康体检、健康评估、慢病筛查、慢病防控、慢病管理、慢病教育等服务，推进公共卫生事业发展。</p>
+        </div>
+        <div id="health_words2">
+            <p>智能识别自动注册：内置第二代身份证读卡器，智能读取使用者身份，自动注册，个人信息建档</p>
+            <p>健康档案自动生成：检测数据自动采集、存储、处理、传输，并智能生成健康档案</p>
+            <p>智能评估一步到位：内置辅助检查软件，自动采集分析健康数据，评估个体健康状况</p>
+            <p>健康报告实时提供：连接打印机，健康报告实时打印，方便老年居民使用</p>
+            <p>健康宣教医疗科普：内置32英寸电视机，支持多媒体播放</p>
+            <p>语音视频智能交互：智能语音动画操作提示，并支持视频通话</p>
+        </div>
+        <div id="add_more">
+            <button type="button" class="addButton_css"><i class="iconfont">&#xe748;</i>&nbsp;More</button>
+        </div>
+    </div>
+</div>
+<!--公司新闻-->
+
+<div id="News">
+    <div class="team_title">
+        <img src="./images/index/company_news.png">
+    </div>
+    <div class="team_title_desc">
+        <p>成都华西医院、绵阳中心医院、 绵阳中心医院、 绵阳中心医院、绵阳中心医院....</p>
+    </div>
+    <div id="news_box">
+        <div class="my_team">
+            <img src="./images/index/team1.png">
+            <p class="team_w1">成都妇幼保健院</p>
+            <p class="team_w2">为您提供更专业、更可靠的医生问诊服务</p>
+            <div class="heangxian"></div>
+            <p class="team_w3">为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务为您提供更专业、更可靠的医
+                生问诊服务、为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务、为您提供更专业、更可靠的
+                医生问诊服务，为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务。</p>
+            <button type="button" class="check_more" onmousemove="buttonXiao(this)" onmouseout="buttonOut(this)" onclick="location_href()">查看更多</button>
+        </div>
+        <div class="my_team" id="team2">
+            <img src="./images/index/team2.png">
+            <p class="team_w1">成都妇幼保健院</p>
+            <p class="team_w2">为您提供更专业、更可靠的医生问诊服务</p>
+            <div class="heangxian"></div>
+            <p class="team_w3">为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务为您提供更专业、更可靠的医
+                生问诊服务、为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务、为您提供更专业、更可靠的
+                医生问诊服务，为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务。</p>
+            <button type="button" class="check_more" onmousemove="buttonXiao(this)" onmouseout="buttonOut(this) " onclick="location_href()">查看更多</button>
+        </div>
+        <div class="my_team" id="team3">
+            <img src="./images/index/team3.png">
+            <p class="team_w1">成都妇幼保健院</p>
+            <p class="team_w2">为您提供更专业、更可靠的医生问诊服务</p>
+            <div class="heangxian"></div>
+            <p class="team_w3">为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务为您提供更专业、更可靠的医
+                生问诊服务、为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务、为您提供更专
+                业、更可靠的医生问诊服务、为您提供更专业、更可靠的
+                医生问诊服务，为您提供更专业、更可靠的医生问诊服务
+                为您提供更专业、更可靠的医生问诊服务。</p>
+            <button type="button" class="check_more" onmousemove="buttonXiao(this)" onmouseout="buttonOut(this)" onclick="location_href()">查看更多</button>
+        </div>
+    </div>
+    <div id="Newsteam_list">
+         <div class="list_news"></div>
+         <div class="list_news"></div>
+         <div class="list_news"></div>
+    </div>
+</div>
+<!--健康资讯-->
+<div id="health_zixun">
+    <div id="zixun_title">
+        <img src="./images/index/our_health.png" />
+    </div>
+    <div class="zixun_words">
+        <p>为您提供更多趣味的健康管理咨询...专注健康监测更加专业...</p>
+    </div>
+    <div id="health_zixun_box">
+        <div class="zixun_box">
+            <div class="zixun_imags">
+                <img src="./images/index/sports1.png" alt=""/>
+            </div>
+            <div class="zixun_content">
+                <p>早上健康运动应注意事项</p>
+                <p>早上健康运动应注意事项受刺激的设计积极地为基
+                    础抠死看将此事阶几大基金.早上健康运动应注意事
+                    项受刺激的设计积极地为基。</p>
+            </div>
+            <div class="zixun_ztl">
+                <div class="button_group">
+                    <i class="iconfont">&#xe643;</i>
+                    <span>评论</span>
+                 </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe621;</i>
+                    <span>点赞</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe748;</i>
+                    <span>收藏</span>
+                </div>
+            </div>
+        </div>
+        <div class="zixun_box zixun_box_left">
+            <div class="zixun_imags">
+                <img src="./images/index/sports2.png" alt=""/>
+            </div>
+            <div class="zixun_content">
+                <p>早上健康运动应注意事项</p>
+                <p>早上健康运动应注意事项受刺激的设计积极地为基
+                    础抠死看将此事阶几大基金.早上健康运动应注意事
+                    项受刺激的设计积极地为基。</p>
+            </div>
+            <div class="zixun_ztl">
+                <div class="button_group">
+                    <i class="iconfont">&#xe643;</i>
+                    <span>评论</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe621;</i>
+                    <span>点赞</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe748;</i>
+                    <span>收藏</span>
+                </div>
+            </div>
+        </div>
+        <div class="zixun_box zixun_box_top">
+            <div class="zixun_imags">
+                <img src="./images/index/sports3.png" alt=""/>
+            </div>
+            <div class="zixun_content">
+                <p>早上健康运动应注意事项</p>
+                <p>早上健康运动应注意事项受刺激的设计积极地为基
+                    础抠死看将此事阶几大基金.早上健康运动应注意事
+                    项受刺激的设计积极地为基。</p>
+            </div>
+            <div class="zixun_ztl">
+                <div class="button_group">
+                    <i class="iconfont">&#xe643;</i>
+                    <span>评论</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe621;</i>
+                    <span>点赞</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe748;</i>
+                    <span>收藏</span>
+                </div>
+            </div>
+        </div>
+        <div class="zixun_box zixun_box_left zixun_box_top">
+            <div class="zixun_imags">
+                <img src="./images/index/sports4.png" alt=""/>
+            </div>
+            <div class="zixun_content">
+                <p>早上健康运动应注意事项</p>
+                <p>早上健康运动应注意事项受刺激的设计积极地为基
+                    础抠死看将此事阶几大基金.早上健康运动应注意事
+                    项受刺激的设计积极地为基。</p>
+            </div>
+            <div class="zixun_ztl">
+                <div class="button_group">
+                    <i class="iconfont">&#xe643;</i>
+                    <span>评论</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe621;</i>
+                    <span>点赞</span>
+                </div>
+                <div class="button_group">
+                    <i class="iconfont">&#xe748;</i>
+                    <span>收藏</span>
+                </div>
+            </div>
+        </div>
+        <div id="health_add_more">
+            <button type="button" class="addButton_css"><i class="iconfont">&#xe748;</i>&nbsp;More</button>
+        </div>
+    </div>
+</div>
+<!--联系我们-->
+<div id="contact_us">
+    <div id="contact_us_title">
+        <img src="./images/index/contact_us_title.png" />
+    </div>
+    <div id="contact_style">
+        <div class="list_contact"><span>公司名称:  四川长虹智慧健康科技有限公司</span></div>
+        <div class="list_contact1"><span>联系电话：  028-65786061</span></div>
+        <div class="list_contact2"><span>基卫合作： 刘先生xianhong.liu@changhong.com</span></div>
+        <div><span>线上商务： 曾女士xiaoting_zeng@changhong.com</span></div>
+        <div><span>线下商务： 候先生jun1.hou@changhong.com</span></div>
+    </div>
+    <div id="contact_bg">
+        <img src="./images/index/contact_us_big.png" />
+    </div>
+</div>
+
+<!--获取app-->
+<div id="getApp">
+    <div id="getApp_logo">
+        <p>获取APP</p>
+    </div>
+    <div id="getApp_line"></div>
+    <p id="select_desc">请选择你所需的下载的方式？</p>
+    <div id="button_groups">
+        <button type="button" name="android_load" id="android_load"></button>
+        <button type="button" name="apple_load" id="apple_load"></button>
+    </div>
+    <div id="download_num">
+        <div class="get_app_words">0</div>
+        <div class="get_app_words">1</div>
+        <div class="get_app_words">3</div>
+        <div class="get_app_words">6</div>
+    </div>
+    <p class="downloads">Downlods</p>
+</div>
+<!--页尾-->
+<div id="foot">
+    <%include footer.html%>
+</div>
+<script type="text/javascript" src="./javascripts/jquery.js"></script>
+<script src="./javascripts/index.js" type="text/javascript"></script>
+</body>
+</html>

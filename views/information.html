@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>健康资讯</title>
+    <link rel="stylesheet" href="./../css/info.css"/>
+</head>
+<body>
+    <!--head头部-->
+  <div id="info_header">
+      <%include header.html%>
+  </div>
+    <!--banner-->
+    <div id="info_banner">
+        <img src="./../images/infomation/info_banner.png" alt=""/>
+    </div>
+    <!--位置描述及页面位置-->
+    <div id="info_box">
+        <div id="info_box_state">
+            <button type="button" id="Comp_news">健康资讯</button>
+            <span id="page_location">当前位置：首页 / 新闻动态 / 健康资讯 / 健康资讯列表</span>
+        </div>
+    </div>
+    <!--健康资讯-->
+    <div id="news_content">
+        <div id="news_title">
+            <span id="Compeny">健康资讯 / </span><span class="arial_Italic" id="english_com">Health information</span>
+            <div class="compeny_box">
+                <img src="./../images/news_list/title_pic.png"/>
+                <span id="news_title_content">为您提供更高效、更便捷的健康服务！</span>
+                <img src="./../images/news_list/title_pic.png"/>
+            </div>
+        </div>
+        <div id="news_content_box"></div>
+    </div>
+    <div id="news_nextPage">
+        <input type="button" value="上一页"/>
+        <span>1</span>
+        <span>2</span>
+        <span>3</span>
+        <input type="button" value="下一页"/>
+    </div>
+    <!--footer尾部-->
+  <div id="info_footer">
+      <%include footer.html%>
+  </div>
+</body>
+<script src="../javascripts/jquery.js"></script>
+<script src="../javascripts/infomation.js"></script>
+</html>
